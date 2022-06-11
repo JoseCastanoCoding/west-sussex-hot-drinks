@@ -9,7 +9,20 @@ body {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none!important;
+    color: black;
+}
+
 .menu-item {
     font-size: 2rem;
-    text-decoration: none;
+}
+
+.hero-image {
+    background-image: url(../media/background-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
 }
