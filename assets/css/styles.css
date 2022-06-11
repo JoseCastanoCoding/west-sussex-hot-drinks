@@ -1,0 +1,15 @@
+body {
+    height: 100vh;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.menu-item {
+    font-size: 2rem;
+    text-decoration: none;
+}
