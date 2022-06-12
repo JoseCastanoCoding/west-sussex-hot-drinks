@@ -139,11 +139,40 @@ a:hover {
 
 /*....................Media queries................................*/
 
-@media (max-width: 576px) {
+@media (max-width: 390px) {
 
     .menu-item {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
+
+    .hero-text {
+        top: 40%;
+    }
+
+    .m-5 {
+        margin: 4px!important;
+    }
+
+    .hero-buttons {
+        top: 66%;
+        left: 50%;
+    }
+
+    .hot-drink-recipes {
+        top: 93%;
+    }
+
+    .why-text {
+        font-size: 15px;
+        top: 59%;
+    }
+
+    .about-me {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 576px) and (min-width: 768px) {
 
     .hero-text {
         top: 40%;
@@ -171,39 +200,7 @@ a:hover {
     }
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
-
-    .menu-item {
-        font-size: 1.25rem;
-    }
-
-    .hero-text {
-        top: 40%;
-    }
-
-    .m-5 {
-        margin: 5px!important;
-    }
-
-    .hero-buttons {
-        top: 61%;
-        left: 50%;
-    }
-
-    .hot-drink-recipes {
-        top: 81%;
-    }
-
-    .why-text {
-        font-size: 15px;
-    }
-
-    .about-me {
-        font-size: 15px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
+@media (max-width: 768px) and (min-width: 992px) {
 
     .hero-text {
         top: 40%;
@@ -231,7 +228,7 @@ a:hover {
     }
 }
 
-@media (min-width: 992px) and (max-width: 1490px) {
+@media (max-width: 992px) and (min-width: 1490px) {
 
     .hero-text {
         top: 40%;
