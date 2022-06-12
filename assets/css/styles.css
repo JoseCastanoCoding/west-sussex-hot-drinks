@@ -113,9 +113,143 @@ a:hover {
     transform: scale(1.1);
 }
 
-#footer {
+.why-text {
+    text-align: center;
     position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #725b448a;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.about-me {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #725b448a;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+/*....................Media queries................................*/
+
+@media (max-width: 576px) {
+
+    .menu-item {
+        font-size: 1.5rem;
+    }
+
+    .hero-text {
+        top: 40%;
+    }
+
+    .m-5 {
+        margin: 5px!important;
+    }
+
+    .hero-buttons {
+        top: 61%;
+        left: 50%;
+    }
+
+    .hot-drink-recipes {
+        top: 81%;
+    }
+
+    .why-text {
+        font-size: 15px;
+    }
+
+    .about-me {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+    .menu-item {
+        font-size: 1.25rem;
+    }
+
+    .hero-text {
+        top: 40%;
+    }
+
+    .m-5 {
+        margin: 5px!important;
+    }
+
+    .hero-buttons {
+        top: 61%;
+        left: 50%;
+    }
+
+    .hot-drink-recipes {
+        top: 81%;
+    }
+
+    .why-text {
+        font-size: 15px;
+    }
+
+    .about-me {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .hero-text {
+        top: 40%;
+    }
+
+    .m-5 {
+        margin: 5px!important;
+    }
+
+    .hero-buttons {
+        top: 61%;
+        left: 50%;
+    }
+
+    .hot-drink-recipes {
+        top: 83%;
+    }
+
+    .why-text {
+        font-size: 18px;
+    }
+
+    .about-me {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1356px) {
+
+    .hero-text {
+        top: 40%;
+    }
+
+    .m-5 {
+        margin: 5px!important;
+    }
+
+    .hero-buttons {
+        top: 55%;
+    }
+
+    .why-text {
+        font-size: 25px;
+    }
+
+    .about-me {
+        font-size: 25px;
+    }
 }
