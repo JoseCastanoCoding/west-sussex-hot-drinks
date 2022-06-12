@@ -231,7 +231,7 @@ a:hover {
     }
 }
 
-@media (min-width: 992px) and (max-width: 1356px) {
+@media (min-width: 992px) and (max-width: 1490px) {
 
     .hero-text {
         top: 40%;
@@ -246,7 +246,8 @@ a:hover {
     }
 
     .why-text {
-        font-size: 25px;
+        font-size: 18px;
+        top: 65%;
     }
 
     .about-me {
